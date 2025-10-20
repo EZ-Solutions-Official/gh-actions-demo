@@ -5,7 +5,7 @@ on:
     workflow_dispatch:
         inputs:
             debug:
-                description: Select debug or not
+                description: Turn debug ON
                 type: boolean
                 default: false
 
